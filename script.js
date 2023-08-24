@@ -19,7 +19,8 @@ const texts = [
 	"good",
 	"things",
 	"in",
-	"life"
+	"life",
+	";)"
 ];
 
 const morphTime = 1;
