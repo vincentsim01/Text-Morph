@@ -13,8 +13,14 @@ body {
 	top: 0;
 	bottom: 0;
 	
+	
 	/* This filter is a lot of the magic, try commenting it out to see how the morphing works! */
-	/*filter: url(#threshold) blur(0.6px);*/
+	filter: url(#threshold) blur(0.6px);
+}
+
+#container:hover{
+    transform: scale(1.5) rotate(-5deg) rotateZ(20deg);
+	
 }
 
 /* Your average text styling */
@@ -29,4 +35,5 @@ body {
 	text-align: center;
 	
 	user-select: none;
+	color: chartreuse;
 }
